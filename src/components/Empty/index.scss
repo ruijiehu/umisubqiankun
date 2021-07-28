@@ -1,0 +1,17 @@
+.empty_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10px;
+  img {
+    margin-bottom: 14px;
+  }
+  span {
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

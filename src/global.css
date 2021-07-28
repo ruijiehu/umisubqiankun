@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  color: #333;
+  font-family: MicrosoftYaHei, PingFangSC-regular, PingFangSC-Semibold, PingFang SC;
+}
+
+body {
+  margin: 0;
+  background: #f0f2f5;
+  scroll-behavior: smooth;
+}
+
+/* antd 样式重置 */
+.ant-popover {
+  max-width: 300px;
+}
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: 0.5px solid #eee;
+}
+
+.ant-table-thead .ant-table-cell {
+  font-weight: bold;
+}
+
+ul,
+li {
+  list-style: none;
+}
+/* 动画相关样式 */
+.fade-enter,
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active,
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 900ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+}
+
+/* antd */
+.ant-pagination-item-active {
+  background-color: rgb(46, 143, 240) !important;
+  border-color: rgb(46, 143, 240) !important;
+}
+.cru_select___83Y_y:hover {
+  color: #1881e1;
+}
+.ant-pagination-item-active a {
+  color: #fff !important;
+}
+.ant-form-item-label > label {
+  font-size: 16px !important;
+}
+table {
+  font-size: 16px !important;
+}
+.bigTable tr th {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+.title-h2 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.ant-breadcrumb .ant-breadcrumb-separator {
+  color: white;
+}
+.bg .ant-breadcrumb .ant-breadcrumb-separator {
+  color: #333333;
+}
+
+
+
+.main {
+  width: 100%;
+}
+.main .forward-enter{
+  opacity: 0;
+  /* transform: translateX(100%); */
+}
+
+.main .forward-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms cubic-bezier(0.45, 0.25, 0.60, 0.95);
+}
+
+.main .forward-exit {
+  opacity: 1;
+  /* transform: translateX(0); */
+}
+
+.main .forward-exit-active {
+  opacity: 0;
+  /* transform: translateX(-100%); */
+  transition: all 500ms cubic-bezier(0.45, 0.25, 0.60, 0.95);
+}
+
+.main .back-enter {
+  opacity: 0;
+  /* transform: translateX(-100%); */
+}
+
+.main .back-enter-active {
+  opacity: 1;
+  /* transform: translateX(0); */
+  transition: all 500ms cubic-bezier(0.45, 0.25, 0.60, 0.95);
+}
+
+.main .back-exit {
+  opacity: 1;
+  /* transform: translateX(0); */
+}
+
+.main .back-exit-active {
+  opacity: 0;
+  /* transform: translate(100%); */
+  transition: all 500ms cubic-bezier(0.45, 0.25, 0.60, 0.95);
+}
+.cursorPointerClass canvas {
+  cursor: pointer !important;
+}
+.amap-info-close{
+  right: 5px  !important;
+}
